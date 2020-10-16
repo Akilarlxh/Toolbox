@@ -12,6 +12,6 @@ jobs:
         uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            git@e.coding.net:akilar/akilar/toolbox.git
+            git@e.coding.net:akilar/akilar/tool.git
           ssh_private_key:
             ${{ secrets.ID_RSA }}
