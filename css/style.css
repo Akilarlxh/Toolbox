@@ -118,199 +118,22 @@ body:before {
 .swiper-slide{
 	width: 300px;
 }
-.swiper-slide:nth-child(1) .sliderText{
+/**
+ * 优化选择器
+ */
+.swiper-slide:nth-child(5n+1) .sliderText{
 	background: #2196f3;
 }
-.swiper-slide:nth-child(2) .sliderText{
+.swiper-slide:nth-child(5n+2) .sliderText{
 	background: #e91e63;
 }
-.swiper-slide:nth-child(3) .sliderText{
+.swiper-slide:nth-child(5n+3) .sliderText{
 	background: #c3d41a;
 }
-.swiper-slide:nth-child(4) .sliderText{
+.swiper-slide:nth-child(5n+4) .sliderText{
 	background: #ff9800;
 }
-.swiper-slide:nth-child(5) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(6) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(7) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(8) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(9) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(10) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(11) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(12) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(13) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(14) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(15) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(16) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(17) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(18) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(19) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(20) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(21) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(22) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(23) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(24) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(25) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(26) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(27) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(28) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(29) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(30) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(31) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(32) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(33) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(34) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(35) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(36) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(37) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(38) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(39) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(40) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(41) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(42) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(43) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(44) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(45) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(46) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(47) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(48) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(49) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(50) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(51) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(52) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(53) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(54) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(55) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(56) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(57) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(58) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(59) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(60) .sliderText{
-	background: #c33ada;
-}
-.swiper-slide:nth-child(61) .sliderText{
-	background: #2196f3;
-}
-.swiper-slide:nth-child(62) .sliderText{
-	background: #e91e63;
-}
-.swiper-slide:nth-child(63) .sliderText{
-	background: #c3d41a;
-}
-.swiper-slide:nth-child(64) .sliderText{
-	background: #ff9800;
-}
-.swiper-slide:nth-child(65) .sliderText{
+.swiper-slide:nth-child(5n+5) .sliderText{
 	background: #c33ada;
 }
 a{
